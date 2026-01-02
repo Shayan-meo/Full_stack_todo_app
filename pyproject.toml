@@ -1,0 +1,25 @@
+[project]
+name = "todo-app"
+version = "0.1.0"
+description = "Phase I Console Todo Application - Lightweight terminal-based task management"
+authors = [{name = "SHAYAN"}]
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = []
+
+[project.scripts]
+todo-app = "todo_app.main:main"
