@@ -1,5 +1,6 @@
 description = "Review planning artifacts for architecturally significant decisions and create ADRs."
 
+
 prompt = """
 ---
 description: Review planning artifacts for architecturally significant decisions and create ADRs.
